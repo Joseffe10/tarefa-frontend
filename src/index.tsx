@@ -6,8 +6,6 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-console.log(process.env.BACKEND_URL)
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
